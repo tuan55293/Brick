@@ -24,6 +24,7 @@ public class Bird : MonoBehaviour
         XSpeed = GameManager.Ins.BirdSpeed;
         Debug.Log(xSpeed);
         RandomDirection();
+        Debug.Log("hehe");
     }
     private void FixedUpdate()
     {
